@@ -26,7 +26,14 @@ public class ArrayTask {
         System.out.println("Copy off array: " + Arrays.toString(copyOfArray));
 
         ArrayList list = new ArrayList(Arrays.asList(array));
+
+
+
         Collections.sort(list, Collections.reverseOrder());
+        System.out.println(array);
+
+
+
 
     }
 }

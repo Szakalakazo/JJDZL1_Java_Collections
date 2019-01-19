@@ -17,6 +17,12 @@ public class HashMapTask {
         map.put("login4", new Person("Mike", "Sali"));
 
 
+        System.out.println("-- SET --");
+        Set set = map.entrySet();
+        for (Object o : set) {
+            System.out.println(o);
+        }
+
 
         System.out.println("");
         for (String key : map.keySet()) {
@@ -24,7 +30,5 @@ public class HashMapTask {
         }
 
 
-        System.out.println(map.get("login1"));
-        Set set = map.entrySet();
     }
 }

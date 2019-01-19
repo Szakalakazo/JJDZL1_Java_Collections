@@ -29,12 +29,10 @@ public class QueueTask {
         Queue q1 = new ArrayBlockingQueue(3);
         q1.add(11);
         q1.add(2);
-        q1.add(3);
+        q1.offer(3);
         System.out.println(q1.offer(5));
         System.out.println(q1.offer(66));
         System.out.println(q1);
-
-
 
     }
 }
